@@ -14,9 +14,12 @@ public class MainClass {
 		return a*b;
 	}
 
-	public static void main(String[] args) {
-		System.out.println("Java within Kubernetes K*****8 Jenkins ADDED-- Maven Project!!!");
+	public static void main(String[] args) throws Exception {
+	    System.out.println("Java within Kubernetes K*****8 Jenkins ADDED-- Maven Project!!!");
 
+	    while (true) {
+	        Thread.sleep(10000);
+	    }
 	}
 
 }
